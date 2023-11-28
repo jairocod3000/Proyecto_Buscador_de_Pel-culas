@@ -1,0 +1,116 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+#icon {
+    width: 65px; 
+    height: 65px; 
+    cursor: pointer;
+    margin-right: 50px; 
+}
+
+#app {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+#search-container {
+    margin-bottom: 20px;
+}
+
+#search-input {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #383838;
+    color: #fff;
+    border: 1px solid #555;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#results-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie-item {
+    border: 1px solid #555;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    border-radius: 8px;
+    transition: transform 0.3s;
+    background-color: #2a2a2a;
+}
+
+.movie-item:hover {
+    transform: scale(1.05);
+}
+
+.movie-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+#detail-container {
+    display: none;
+    margin-top: 20px;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+#detail-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#report-container {
+    display: none;
+    margin-top: 20px;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+#report-container button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#report-container button:hover {
+    background-color: #45a049;
+}
